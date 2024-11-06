@@ -1,0 +1,169 @@
+@media only screen and (max-width: 992px) {
+
+    .container {
+        padding: 2rem;
+    }
+
+
+    .header2 .header-contact {
+        flex-direction: column;
+    }
+
+    .header2 .header-contact .col-6 {
+        width: 50%;
+        margin: 3rem 0;
+    }
+
+
+
+    .header2 .skills2-content .tooltip {
+        display: none;
+    }
+
+    .header2 .header-contact .text-content span {
+        padding: 0.5rem 1rem;
+
+    }
+
+    .header2 .header-contact .text-content h2 {
+        font-size: 3rem;
+
+    }
+
+
+
+    /*--------------home-nav---------------------*/
+    /*#region home-nav*/
+
+
+    .html-logo {
+        top: 30%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        animation: float 5s ease-in-out infinite;
+        width: 80px !important;
+
+    }
+
+    .css-logo {
+        top: 20%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        animation: rotate 8s alternate infinite;
+        width: 65px !important;
+
+
+    }
+
+    .js-logo {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: randomMove 6s ease-in-out infinite;
+        width: 80px !important;
+        border-radius: 50%;
+
+
+    }
+
+    .react-logo {
+        top: 80%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        animation: float 7s ease-in-out infinite;
+        width: 70px !important;
+
+    }
+
+    .node-logo {
+        top: 30%;
+        left: 40%;
+        animation: rotate 6s linear infinite;
+        width: 90px !important;
+
+    }
+
+    .mongo-logo {
+        top: 70%;
+        left: 10%;
+        animation: randomMove 9s ease-in-out infinite;
+        width: 110px !important;
+    }
+
+
+    .home-nav .content {
+        justify-content: center;
+    }
+
+    .home-nav .content ul {
+        display: none;
+    }
+
+
+
+
+    .home-nav .content .porfile {
+        text-align: center;
+        font-size: 1.6rem;
+        position: relative;
+
+    }
+
+    .home-nav .content .porfile h4 {
+        margin-top: 0;
+        padding: .1rem;
+    }
+
+    .home-nav .content .porfile img {
+        width: 80px;
+        top: 0;
+
+    }
+
+    /*#endregion home-nav*/
+
+    .about-me {
+        padding: 1rem;
+    }
+
+    .services .content .card-item:last-child {
+
+        transform: rotate(0deg) translateY(0);
+    }
+    .p-description {
+        width: 90%;
+        line-height: 1.7;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        height: 60vh !important;
+    }
+
+    .services .content .card-item {
+
+        transform: rotate(0deg) translateY(0) !important;
+    }
+
+    .testimonials .content {
+        justify-content: center;
+
+    }
+
+    .testimonials .content .testimoials-card {
+        width: 100%;
+
+    }
+
+    footer .footer-content h3 {
+        font-size: 1.5rem;
+    }
+
+    footer .footer-content p {
+        font-size: 1rem;
+    }
+}
